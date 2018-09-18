@@ -1,0 +1,19 @@
+h1 {
+  width: 200px;
+  height: 40px;
+  background-color: pink;
+}
+
+p {
+  width: 1660px;
+  height: 137px;
+  background-color: pink;
+  font-size: x-large;
+  position: center;
+}
+
+body {
+background-image: url(https://i.pinimg.com/originals/f3/8c/4a/f38c4a36c9a6b0e67bd1f51c60f9fab9.gif);
+width: 1600px;
+height: 900px;
+}
