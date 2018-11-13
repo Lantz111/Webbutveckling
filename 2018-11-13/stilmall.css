@@ -1,0 +1,36 @@
+.container {
+
+  margin: auto;
+  background-color: black;
+
+}
+
+.content {
+
+  display: flex;
+  flex-direction: row;
+}
+
+.vanster {
+
+  background-color: blue;
+
+}
+
+.mitten {
+
+  background-color: green;
+
+}
+
+.hoger {
+
+  background-color: red;
+
+}
+
+@media only screen and (max-width:800px) {
+  .content {
+    flex-direction: column;
+  }
+}
