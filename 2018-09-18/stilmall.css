@@ -2,14 +2,16 @@ h1 {
   width: 175px;
   height: 40px;
   background-color: pink;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 p {
   width: 1660px;
-  height: 137px;
+  height: 210px;
   background-color: pink;
   font-size: x-large;
   position: center;
+  font-family: 'Black Han Sans', sans-serif;
 }
 
 body {
