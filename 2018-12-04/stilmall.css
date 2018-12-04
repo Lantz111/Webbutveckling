@@ -1,0 +1,23 @@
+/*body{
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13516248_858419050957159_4468184329787872243_n.jpg?_nc_cat=100&_nc_ht=scontent-arn2-1.xx&oh=8e54108ba4f7f12be38af58d9825ce88&oe=5CA99813);
+  background-position: Start;
+
+  background-size max-width: 960px;
+  background-size width: 960px;
+  background-size height: 960px;*/
+}
+.box{
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/13516248_858419050957159_4468184329787872243_n.jpg?_nc_cat=100&_nc_ht=scontent-arn2-1.xx&oh=8e54108ba4f7f12be38af58d9825ce88&oe=5CA99813);
+  width: 960px;
+  height: 960px;
+
+}
+
+.nav-navbar-nav{
+  background-color: red;
+  padding: 5px;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+
+}
