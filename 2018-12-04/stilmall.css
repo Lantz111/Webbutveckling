@@ -17,20 +17,47 @@ header{
   justify-content: center;
   background-color: grey;
   margin: 5px;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
+
+
+h2{
+  display: flex;
+  justify-content: center;
+}
 .container{
   display: flex;
   flex-direction: row;
 }
 
-.navbar{
-  display: flex;
-  background-color: grey;
-  padding: 10px;
-  margin: 5px;
-  flex-direction: column;
-  flex: 1 1 10%;
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  left: -10px;
+	z-index: 1;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.link{
+  background-color: lightgray;
+
 }
 
 .Lada-Mitten{

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+	/* static är default. "På sin naturliga plats
+  i dokumentflödet", definierat i html-koden.
+  relative placerar på samma sätt men nu får vi tillgång tillgång
+  left, right, top, bottom och z-index
+  Vi kan justera platsen */
+	position: relative;
+	/* display: inline Fyller ut hela utrymmet (från vänster till höger)
+  radbryter om det inte får plats
+  display: block Definieras i bredd och höjd, börjar alltid på ny rad
+  display: inline-block; Som block men utan radbrytning
+  flera saker som är "inline-block" kan ligga bredvid varandra
+  på samma rad */
+	display: inline-block;
+}
+.dropdown-content {
+	/* display: none Osynlig */
+	display: none;
+	/* position: absolute; Positionerad
+  relativt sitt NÄRMASTE föräldraelement
+  left, right, top, bottom och z-index fungerar */
+	position: absolute;
+	background-color: red;
+	/* minsta vidden, max-widh ej definierad
+  beror på innehållet */
+	min-width: 160px;
+	/* padding Avståndet runt element INNE I
+  elementet det här elementet
+  padding-top
+  padding-right
+  padding-bottom
+  padding-left
+  snabbsätt (top, right, bottom, left) */
+	padding: 12px 16px;
+	/* z-index definierar vad som ligger överst (z-axeln)
+  av element som ligger PÅ SAMMA NIVÅ */
+	z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.under_meny {
+	position: absolute;
+	z-index: 2;
+}
+</style>
+</head>
+<body>
+   <h2>Hoverable Dropdown</h2>
+   <p>Move the mouse over the text below to open the dropdown content.</p>
+   <div>
+      <div class="dropdown">
+         <span>Mouse over me</span>
+         <div class="dropdown-content">
+            Hello World!
+         </div>
+         <div class="under_meny">Under</div>
+      </div>
+   </div>
+</body>
+</html>
