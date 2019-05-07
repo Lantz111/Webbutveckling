@@ -80,6 +80,7 @@ header h2{
   padding: 20px;
   margin: 5px;
   flex: 1 1 80%;
+  flex-direction: column;
 }
 
 
