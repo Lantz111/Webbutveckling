@@ -83,6 +83,9 @@ header h2{
   flex-direction: column;
 }
 
+img{
+  width: 100%;
+}
 
 .Lada{
   display: flex;
@@ -90,13 +93,10 @@ header h2{
   padding: 10px;
   margin: 5px;
   flex: 1 1 10%;
-  justify-content: center;
   flex-direction: column;
 }
 
-img{
-  width: 100%;
-}
+
 
 footer{
   display: flex;
