@@ -83,6 +83,22 @@ header h2{
   flex-direction: column;
 }
 
+ul{
+list-style-type:circle;
+}
+
+li{
+font-size: 22px;
+font-weight: bold;
+}
+
+ul li:nth-child(2n+2)
+{
+margin-bottom: 30px;
+margin-left: 20px;
+list-style-type: none;
+}
+
 img{
   width: 100%;
 }

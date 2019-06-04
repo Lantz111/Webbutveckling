@@ -83,6 +83,9 @@ header h2{
   flex-direction: column;
 }
 
+table{
+  justify-content:center;
+}
 
 .Lada{
   display: flex;
